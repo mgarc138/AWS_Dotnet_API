@@ -1,0 +1,11 @@
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\bin\Debug\netcoreapp2.0\AWSServerless1.deps.json
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\bin\Debug\netcoreapp2.0\AWSServerless1.runtimeconfig.json
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\bin\Debug\netcoreapp2.0\AWSServerless1.runtimeconfig.dev.json
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\bin\Debug\netcoreapp2.0\AWSServerless1.dll
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\bin\Debug\netcoreapp2.0\AWSServerless1.pdb
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\obj\Debug\netcoreapp2.0\AWSServerless1.csprojResolveAssemblyReference.cache
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\obj\Debug\netcoreapp2.0\AWSServerless1.csproj.CoreCompileInputs.cache
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\obj\Debug\netcoreapp2.0\AWSServerless1.AssemblyInfoInputs.cache
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\obj\Debug\netcoreapp2.0\AWSServerless1.AssemblyInfo.cs
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\obj\Debug\netcoreapp2.0\AWSServerless1.dll
+C:\Users\mortega\Documents\Visual Studio 2017\Projects\AWSServerless1\AWSServerless1\obj\Debug\netcoreapp2.0\AWSServerless1.pdb
