@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace AWSServerless1.Controllers
 {
@@ -11,22 +12,27 @@ namespace AWSServerless1.Controllers
     {
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Value> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new Value[] {new Value {Id = 1, TextContent = "marlon"}, new Value {Id = 2, TextContent = "Adrina"}};
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Value Get(int id)
         {
-            return "value";
+            return new Value { Id = id, TextContent = "marlon"};
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public IActionResult Post([FromBody] Value value)
         {
+            if(!ModelState.IsValid){
+                return BadRequest(ModelState);
+            }
+            return CreatedAtAction("Get", new {id = value.Id}, value);
+
         }
 
         // PUT api/values/5
@@ -41,4 +47,14 @@ namespace AWSServerless1.Controllers
         {
         }
     }
+
+    public class Value 
+    {
+        public int Id { get; set; }
+        [Required]
+        public string TextContent { get; set; }
+
+    }
+
+
 }
